@@ -19,7 +19,7 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = 'postgres://pwbjkedt:yHtCdpZsk8IzHvS3nt3MRXWtnC9bid0m@satao.db.elephantsql.com/pwbjkedt'  # needed for any database modules
     MESSAGE_DUMP = '' # needed to make sure 'save from' messages persist
     LOAD = []
-    NO_LOAD = ['translation']
+    NO_LOAD = []
     WEBHOOK = False
     DONATION_LINK = ''
     URL = ""
